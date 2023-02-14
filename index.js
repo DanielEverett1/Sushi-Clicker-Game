@@ -10,6 +10,7 @@ function e(e, t) {
     )),
     e
 }
+
 function t(e, t, n, r) {
     Object.defineProperty(e, t, {
         get: n,
@@ -18,6 +19,7 @@ function t(e, t, n, r) {
         configurable: !0
     })
 }
+
 const n = "click"
   , r = "button";
 var o = {}
@@ -26,15 +28,18 @@ t(a, "clicks", (function() {
     return c
 }
 ));
+
 const c = {
     current: 0,
     total: 0
 };
+
 var s = {};
 t(s, "cursor", (function() {
     return l
 }
 ));
+
 const l = {
     message: "Upgraded cursor click power.",
     owned: 1,
@@ -49,11 +54,13 @@ const l = {
         current: 1
     }
 };
+
 var u = {};
 t(u, "workers", (function() {
     return i
 }
 ));
+
 const i = {
     worker1: {
         label: "Worker 1",
@@ -376,11 +383,14 @@ const i = {
         }
     }
 };
+
 var d = {};
+
 t(d, "messages", (function() {
     return b
 }
 ));
+
 const b = {
     1: "The clicking has commenced...",
     10: "The button has been clicked ten times.",
@@ -405,10 +415,12 @@ const b = {
     1e21: "The button has been clicked one hundred quitillion times.",
     1e22: "The button has been clicked one sextillion times."
 };
+
 e(o, a),
 e(o, s),
 e(o, u),
 e(o, d);
+
 (0,
 window.gtag)("config", "UA-59233605-5"),
 window["ga-disable-UA-59233605-5"] = !1;
@@ -416,6 +428,7 @@ const h = document.createElement("script");
 h.async = !0,
 h.src = "https://www.googletagmanager.com/gtag/js?id=UA-59233605-5",
 document.head.appendChild(h);
+
 const g = document.getElementById("cursor")
   , m = {
     button: document.getElementById("button"),
@@ -424,16 +437,21 @@ const g = document.getElementById("cursor")
     cursorButton: g.querySelector(r),
     message: document.getElementById("message"),
     store: document.getElementById("store")
-}
-  , x = (e,t,n)=>Math.floor(e * Math.pow(t, n));
+}, 
+
+x = (e,t,n)=>Math.floor(e * Math.pow(t, n));
+
 function k(e) {
     const t = m[e];
     return t || (m[e] = document.getElementById(e))
 }
+
 const y = (e,t)=>`${e.toLocaleString()} ${1 === e ? "click" : "clicks"} per ${t.toLocaleString()} ${1 === t ? "second" : "seconds"}`;
+
 function p() {
     m.counter.innerText = c.current.toLocaleString()
 }
+
 function T() {
     const e = m.cursor
       , {cursor: t} = o;
@@ -442,6 +460,7 @@ function T() {
     e.querySelector(".output-current").innerText = `${t.output.current.toLocaleString()} per click`,
     e.querySelector(".output-next").innerText = `${t.output.next.toLocaleString()} per click`
 }
+
 function w(e) {
     const t = i[e]
       , n = k(e);
@@ -450,6 +469,7 @@ function w(e) {
     n.querySelector(".output-current").innerText = y(t.output.current, t.delay),
     n.querySelector(".output-next").innerText = y(t.output.next, t.delay)
 }
+
 function f(e="") {
     const {total: t} = c;
     let n;
