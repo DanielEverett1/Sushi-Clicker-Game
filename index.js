@@ -365,7 +365,7 @@ const i = {
     worker16: {
         label: "Worker 16",
         message: "Purchased Worker 16.",
-        owned: 10,
+        owned: 0,
         delay: 90,
         cost: {
             base: 31e16,
