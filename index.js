@@ -490,7 +490,7 @@ function f(e = "") {
             break
         }
     n && (n = n.toLocaleString(),
-        n !== m.message.innerText && (m.message.innerText = n))
+        // n !== m.message.innerText && (m.message.innerText = n))
 }
 
 function G(e, t = !1) {
