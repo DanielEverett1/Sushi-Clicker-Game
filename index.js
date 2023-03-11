@@ -475,22 +475,22 @@ function w(e) {
 //
 
 function f(e = "") {
-    // const { total: t } = c;
-    // let n;
-    // if (e)
-    //     n = e;
-    // else if (b[t])
-    //     n = b[t],
-    //         delete b[t];
-    // else
-    //     for (const e in b) {
-    //         const r = Number(e);
-    //         t >= r && (n = b[r],
-    //             delete b[r]);
-    //         break
-    //     }
-    // n && (n = n.toLocaleString(),
-        // n !== m.message.innerText && (m.message.innerText = n))
+    const { total: t } = c;
+    let n;
+    if (e)
+        n = e;
+    else if (b[t])
+        n = b[t],
+            delete b[t];
+    else
+        for (const e in b) {
+            const r = Number(e);
+            t >= r && (n = b[r],
+                delete b[r]);
+            break
+        }
+    n && (n = n.toLocaleString(),
+        n !== m.message.innerText && (m.message.innerText = n))
 }
 
 function G(e, t = !1) {
