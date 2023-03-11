@@ -51,7 +51,7 @@ const l = {
     output: {
         base: 5,
         next: 5,
-        current: 1
+        current: 5
     }
 };
 
