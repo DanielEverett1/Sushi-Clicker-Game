@@ -22,9 +22,9 @@ function t(e, t, n, r) {
 
 const n = "click"
     , r = "button";
-var o = {}
+let o = {}
     , a = {};
-t(a, "clicks", (function () {
+t(a, "Sushi Rolls", (function () {
     return c
 }
 ));
@@ -34,12 +34,14 @@ const c = {
     total: 0
 };
 
-var s = {};
+// Returns cursors in table
+let s = {};
 t(s, "cursor", (function () {
     return l
 }
 ));
 
+// Cursor upgrades
 const l = {
     message: "Upgraded cursor.",
     owned: 1,
@@ -55,7 +57,8 @@ const l = {
     }
 };
 
-var u = {};
+// Returns list of workers in table
+let u = {};
 t(u, "workers", (function () {
     return i
 }
@@ -384,7 +387,7 @@ const i = {
     }
 };
 
-var d = {};
+let d = {};
 
 t(d, "messages", (function () {
     return b
