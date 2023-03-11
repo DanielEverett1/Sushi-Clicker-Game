@@ -525,9 +525,9 @@ Object.keys(i).forEach((e => {
     o.title = t.label,
         o.innerText = t.label,
         m.store.appendChild(n)
-    }
+}
 )),
-    
+    //
     p(),
     T(),
     Object.keys(i).forEach((e => {
@@ -542,6 +542,7 @@ Object.keys(i).forEach((e => {
     )),
     //
 
+    // sets cost next price 
     m.cursorButton.addEventListener(n, (() => {
         if (o.clicks.current >= o.cursor.cost.next) {
             const { cursor: e } = o;
@@ -559,7 +560,9 @@ Object.keys(i).forEach((e => {
         }
     }
     )),
+    //
 
+    // sets worker next cost
     Object.keys(o.workers).forEach((e => {
         const t = o.workers[e];
         k(e).querySelector(r).addEventListener(n, (() => {
@@ -583,7 +586,8 @@ Object.keys(i).forEach((e => {
                         ,
                         setInterval(t.interval.callback, 1e3 * t.delay)),
                 t.message && f(t.message))
-            }
+        }
         ))
     }
-));
+    ));
+//
