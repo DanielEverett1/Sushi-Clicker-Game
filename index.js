@@ -443,9 +443,9 @@ function k(e) {
 // Converts Sushi Roll > Sushi Rolls if more than 1 && converts second > seconds if more than 1
 const y = (e, t) => `${e.toLocaleString()} ${1 === e ? "Sushi Roll" : "Sushi Rolls"} per ${t.toLocaleString()} ${1 === t ? "second" : "seconds"}`;
 
-
+// Displays the Sushi Roll count
 function p() {
-    // m.counter.innerText = c.current.toLocaleString()
+    m.counter.innerText = c.current.toLocaleString()
 }
 
 function T() {
