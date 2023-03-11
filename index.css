@@ -19,7 +19,7 @@ main {
 
 header {
     color: #eee;
-    background: #333;
+    background-color: #333;
     font-family: Consolas, monospace;
 }
 
@@ -28,11 +28,12 @@ table {
 }
 
 tr:nth-child(2n) {
-    background: #eee;
+    background-color: #eee;
 }
 
 th,
 td {
+    background-color: #eee;
     border: 1px solid #ddd;
     padding: 8px;
 }
