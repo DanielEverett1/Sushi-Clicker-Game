@@ -460,8 +460,8 @@ function T() {
         , { cursor: t } = o;
     e.querySelector(".owned").innerText = (t.owned - 1).toLocaleString(),
         e.querySelector(".cost").innerText = t.cost.next.toLocaleString(),
-        e.querySelector(".output-current").innerText = `${t.output.current.toLocaleString()} per click`,
-        e.querySelector(".output-next").innerText = `${t.output.next.toLocaleString()} per click`
+        e.querySelector(".output-current").innerText = `${t.output.current.toLocaleString()} Sushi Rolls per click`,
+        e.querySelector(".output-next").innerText = `${t.output.next.toLocaleString()} Sushi Rolls per click`
 }
 
 function w(e) {
