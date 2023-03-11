@@ -419,6 +419,13 @@ const b = {
 };
 //
 
+// Vital to show all information
+e(o, a),
+e(o, s),
+e(o, u),
+e(o, d);
+//
+
 // finds all elements by ID, and does math
 const g = document.getElementById("cursor"), m = {
     button: document.getElementById("button"),
