@@ -20,11 +20,9 @@ function t(e, t, n, r) {
     })
 }
 
-const n = "click"
-    , r = "button";
-let o = {}
-    , a = {};
-t(a, "Sushi Rolls", (function () {
+const n = "click", r = "button";
+let o = {}, a = {};
+t(a, "clicks", (function () {
     return c
 }
 ));
@@ -387,6 +385,7 @@ const i = {
     }
 };
 
+// Sends messages at the top of screen
 let d = {};
 
 t(d, "messages", (function () {
@@ -420,31 +419,33 @@ const b = {
 };
 
 e(o, a),
-e(o, s),
-e(o, u),
-e(o, d);
+    e(o, s),
+    e(o, u),
+    e(o, d);
 
-const g = document.getElementById("cursor")
-    , m = {
-        button: document.getElementById("button"),
-        counter: document.getElementById("counter"),
-        cursor: g,
-        cursorButton: g.querySelector(r),
-        message: document.getElementById("message"),
-        store: document.getElementById("store")
-    },
+// finds all elements by ID, and does math
+const g = document.getElementById("cursor"), m = {
+    button: document.getElementById("button"),
+    counter: document.getElementById("counter"),
+    cursor: g,
+    cursorButton: g.querySelector(r),
+    message: document.getElementById("message"),
+    store: document.getElementById("store")
+},
 
-    x = (e, t, n) => Math.floor(e * Math.pow(t, n));
+x = (e, t, n) => Math.floor(e * Math.pow(t, n));
 
 function k(e) {
     const t = m[e];
     return t || (m[e] = document.getElementById(e))
 }
 
+// Converts Sushi Roll > Sushi Rolls if more than 1 && converts second > seconds if more than 1
 const y = (e, t) => `${e.toLocaleString()} ${1 === e ? "Sushi Roll" : "Sushi Rolls"} per ${t.toLocaleString()} ${1 === t ? "second" : "seconds"}`;
 
+
 function p() {
-    m.counter.innerText = c.current.toLocaleString()
+    m.counter.innerText = c.current.toLocaleString("Sushi Rolls")
 }
 
 function T() {
