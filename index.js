@@ -1,14 +1,14 @@
 function e(e, t) {
-    return Object.keys(t).forEach((function(n) {
+    return Object.keys(t).forEach((function (n) {
         "default" === n || "__esModule" === n || e.hasOwnProperty(n) || Object.defineProperty(e, n, {
             enumerable: !0,
-            get: function() {
+            get: function () {
                 return t[n]
             }
         })
     }
     )),
-    e
+        e
 }
 
 function t(e, t, n, r) {
@@ -21,10 +21,10 @@ function t(e, t, n, r) {
 }
 
 const n = "click"
-  , r = "button";
+    , r = "button";
 var o = {}
-  , a = {};
-t(a, "clicks", (function() {
+    , a = {};
+t(a, "clicks", (function () {
     return c
 }
 ));
@@ -35,7 +35,7 @@ const c = {
 };
 
 var s = {};
-t(s, "cursor", (function() {
+t(s, "cursor", (function () {
     return l
 }
 ));
@@ -46,17 +46,17 @@ const l = {
     cost: {
         base: 100,
         next: 100,
-        rate: 2
+        rate: 5
     },
     output: {
-        base: 2,
-        next: 2,
+        base: 1,
+        next: 5,
         current: 1
     }
 };
 
 var u = {};
-t(u, "workers", (function() {
+t(u, "workers", (function () {
     return i
 }
 ));
@@ -78,7 +78,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -98,7 +98,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -118,7 +118,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -138,7 +138,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -158,7 +158,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -178,7 +178,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -198,7 +198,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -218,7 +218,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -238,7 +238,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -258,7 +258,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -278,7 +278,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -298,7 +298,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -318,7 +318,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -338,7 +338,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -358,7 +358,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     },
@@ -378,7 +378,7 @@ const i = {
             current: 0
         },
         interval: {
-            callback() {},
+            callback() { },
             set: !1
         }
     }
@@ -386,7 +386,7 @@ const i = {
 
 var d = {};
 
-t(d, "messages", (function() {
+t(d, "messages", (function () {
     return b
 }
 ));
@@ -417,36 +417,36 @@ const b = {
 };
 
 e(o, a),
-e(o, s),
-e(o, u),
-e(o, d);
+    e(o, s),
+    e(o, u),
+    e(o, d);
 
 (0,
-window.gtag)("config", "UA-59233605-5"),
-window["ga-disable-UA-59233605-5"] = !1;
+    window.gtag)("config", "UA-59233605-5"),
+    window["ga-disable-UA-59233605-5"] = !1;
 const h = document.createElement("script");
 h.async = !0,
-h.src = "https://www.googletagmanager.com/gtag/js?id=UA-59233605-5",
-document.head.appendChild(h);
+    h.src = "https://www.googletagmanager.com/gtag/js?id=UA-59233605-5",
+    document.head.appendChild(h);
 
 const g = document.getElementById("cursor")
-  , m = {
-    button: document.getElementById("button"),
-    counter: document.getElementById("counter"),
-    cursor: g,
-    cursorButton: g.querySelector(r),
-    message: document.getElementById("message"),
-    store: document.getElementById("store")
-}, 
+    , m = {
+        button: document.getElementById("button"),
+        counter: document.getElementById("counter"),
+        cursor: g,
+        cursorButton: g.querySelector(r),
+        message: document.getElementById("message"),
+        store: document.getElementById("store")
+    },
 
-x = (e,t,n)=>Math.floor(e * Math.pow(t, n));
+    x = (e, t, n) => Math.floor(e * Math.pow(t, n));
 
 function k(e) {
     const t = m[e];
     return t || (m[e] = document.getElementById(e))
 }
 
-const y = (e,t)=>`${e.toLocaleString()} ${1 === e ? "click" : "clicks"} per ${t.toLocaleString()} ${1 === t ? "second" : "seconds"}`;
+const y = (e, t) => `${e.toLocaleString()} ${1 === e ? "Sushi Roll" : "Sushi Rolls"} per ${t.toLocaleString()} ${1 === t ? "second" : "seconds"}`;
 
 function p() {
     m.counter.innerText = c.current.toLocaleString()
@@ -454,117 +454,124 @@ function p() {
 
 function T() {
     const e = m.cursor
-      , {cursor: t} = o;
+        , { cursor: t } = o;
     e.querySelector(".owned").innerText = (t.owned - 1).toLocaleString(),
-    e.querySelector(".cost").innerText = t.cost.next.toLocaleString(),
-    e.querySelector(".output-current").innerText = `${t.output.current.toLocaleString()} per click`,
-    e.querySelector(".output-next").innerText = `${t.output.next.toLocaleString()} per click`
+        e.querySelector(".cost").innerText = t.cost.next.toLocaleString(),
+        e.querySelector(".output-current").innerText = `${t.output.current.toLocaleString()} per click`,
+        e.querySelector(".output-next").innerText = `${t.output.next.toLocaleString()} per click`
 }
 
 function w(e) {
     const t = i[e]
-      , n = k(e);
+        , n = k(e);
     n.querySelector(".owned").innerText = t.owned.toLocaleString(),
-    n.querySelector(".cost").innerText = t.cost.next.toLocaleString(),
-    n.querySelector(".output-current").innerText = y(t.output.current, t.delay),
-    n.querySelector(".output-next").innerText = y(t.output.next, t.delay)
+        n.querySelector(".cost").innerText = t.cost.next.toLocaleString(),
+        n.querySelector(".output-current").innerText = y(t.output.current, t.delay),
+        n.querySelector(".output-next").innerText = y(t.output.next, t.delay)
 }
 
-function f(e="") {
-    const {total: t} = c;
+function f(e = "") {
+    const { total: t } = c;
     let n;
     if (e)
         n = e;
     else if (b[t])
         n = b[t],
-        delete b[t];
+            delete b[t];
     else
         for (const e in b) {
             const r = Number(e);
             t >= r && (n = b[r],
-            delete b[r]);
+                delete b[r]);
             break
         }
     n && (n = n.toLocaleString(),
-    n !== m.message.innerText && (m.message.innerText = n))
+        n !== m.message.innerText && (m.message.innerText = n))
 }
-function G(e, t=!1) {
-    const {clicks: n} = o;
+
+function G(e, t = !1) {
+    const { clicks: n } = o;
     n.current += e,
-    t || (n.total += e,
-    f()),
-    p(),
-    m.cursorButton.disabled = n.current < o.cursor.cost.next;
-    const {workers: a} = o;
-    Object.keys(a).forEach((e=>{
+        t || (n.total += e,
+            f()),
+        p(),
+        m.cursorButton.disabled = n.current < o.cursor.cost.next;
+    const { workers: a } = o;
+    Object.keys(a).forEach((e => {
         k(e).querySelector(r).disabled = n.current < a[e].cost.next
     }
     ))
 }
+
 function v(e) {
     G(-e, !0)
 }
-Object.keys(i).forEach((e=>{
+
+Object.keys(i).forEach((e => {
     const t = i[e]
-      , n = m.cursor.cloneNode(!0);
+        , n = m.cursor.cloneNode(!0);
     n.id = e;
     const o = n.querySelector(r);
     o.title = t.label,
-    o.innerText = t.label,
-    m.store.appendChild(n)
+        o.innerText = t.label,
+        m.store.appendChild(n)
 }
 )),
-p(),
-T(),
-Object.keys(i).forEach((e=>{
-    w(e)
-}
-)),
-m.button.addEventListener(n, (()=>{
-    G(o.cursor.output.current)
-}
-)),
-m.cursorButton.addEventListener(n, (()=>{
-    if (o.clicks.current >= o.cursor.cost.next) {
-        const {cursor: e} = o;
-        v(e.cost.next),
-        function() {
-            const {cursor: e} = o
-              , {cost: t, output: n} = e
-              , r = ++e.owned;
-            t.next = x(t.base, t.rate, r - 1),
-            n.current = n.next,
-            n.next = Math.round(n.base * r),
-            T()
-        }(),
-        f(e.message)
+
+    p(),
+    T(),
+    Object.keys(i).forEach((e => {
+        w(e)
     }
-}
-)),
-Object.keys(o.workers).forEach((e=>{
-    const t = o.workers[e];
-    k(e).querySelector(r).addEventListener(n, (()=>{
-        o.clicks.current >= t.cost.next && (v(t.cost.next),
-        function(e) {
-            const t = o.workers[e]
-              , {cost: n, output: r} = t
-              , a = ++t.owned;
-            n.next = x(n.base, n.rate, a),
-            r.current = r.next,
-            r.next = Math.round(r.base * (a + 1)),
-            w(e)
-        }(e),
-        t.interval.set ? t.interval.callback = ()=>{
-            G(t.output.current)
-        }
-        : (t.interval.set = !0,
-        t.interval.callback = ()=>{
-            G(t.output.current)
-        }
-        ,
-        setInterval(t.interval.callback, 1e3 * t.delay)),
-        t.message && f(t.message))
+    )),
+
+    m.button.addEventListener(n, (() => {
+        G(o.cursor.output.current)
     }
-    ))
-}
-));
+    )),
+
+    m.cursorButton.addEventListener(n, (() => {
+        if (o.clicks.current >= o.cursor.cost.next) {
+            const { cursor: e } = o;
+            v(e.cost.next),
+                function () {
+                    const { cursor: e } = o
+                        , { cost: t, output: n } = e
+                        , r = ++e.owned;
+                    t.next = x(t.base, t.rate, r - 1),
+                        n.current = n.next,
+                        n.next = Math.round(n.base * r),
+                        T()
+                }(),
+                f(e.message)
+        }
+    }
+    )),
+
+    Object.keys(o.workers).forEach((e => {
+        const t = o.workers[e];
+        k(e).querySelector(r).addEventListener(n, (() => {
+            o.clicks.current >= t.cost.next && (v(t.cost.next),
+                function (e) {
+                    const t = o.workers[e]
+                        , { cost: n, output: r } = t
+                        , a = ++t.owned;
+                    n.next = x(n.base, n.rate, a),
+                        r.current = r.next,
+                        r.next = Math.round(r.base * (a + 1)),
+                        w(e)
+                }(e),
+                t.interval.set ? t.interval.callback = () => {
+                    G(t.output.current)
+                }
+                    : (t.interval.set = !0,
+                        t.interval.callback = () => {
+                            G(t.output.current)
+                        }
+                        ,
+                        setInterval(t.interval.callback, 1e3 * t.delay)),
+                t.message && f(t.message))
+        }
+        ))
+    }
+    ));
