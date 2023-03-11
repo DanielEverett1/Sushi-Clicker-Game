@@ -511,20 +511,21 @@ function G(e, t = !1) {
 }
 //
 
-// function v(e) {
-//     G(-e, !0)
-// }
-
-Object.keys(i).forEach((e => {
-    const t = i[e]
-        , n = m.cursor.cloneNode(!0);
-    n.id = e;
-    const o = n.querySelector(r);
-    o.title = t.label,
-        o.innerText = t.label,
-        m.store.appendChild(n)
+// Handles buying upgrades
+function v(e) {
+    G(-e, !0)
 }
-)),
+
+// Object.keys(i).forEach((e => {
+//     const t = i[e]
+//         , n = m.cursor.cloneNode(!0);
+//     n.id = e;
+//     const o = n.querySelector(r);
+//     o.title = t.label,
+//         o.innerText = t.label,
+//         m.store.appendChild(n)
+// }
+// )),
 
     p(),
     T(),
