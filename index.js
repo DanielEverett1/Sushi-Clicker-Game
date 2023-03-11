@@ -489,7 +489,7 @@ function f(e = "") {
                 delete b[r]);
             break
         }
-    n && (n = n.toLocaleString(),
+    // n && (n = n.toLocaleString(),
         // n !== m.message.innerText && (m.message.innerText = n))
 }
 
