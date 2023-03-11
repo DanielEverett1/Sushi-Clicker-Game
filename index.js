@@ -421,9 +421,9 @@ const b = {
 
 // Vital to show all information
 e(o, a),
-e(o, s),
-e(o, u),
-e(o, d);
+    e(o, s),
+    e(o, u),
+    e(o, d);
 //
 
 // finds all elements by ID, and does math
@@ -436,7 +436,7 @@ const g = document.getElementById("cursor"), m = {
     store: document.getElementById("store")
 },
 
-x = (e, t, n) => Math.floor(e * Math.pow(t, n));
+    x = (e, t, n) => Math.floor(e * Math.pow(t, n));
 
 function k(e) {
     const t = m[e];
@@ -525,9 +525,9 @@ Object.keys(i).forEach((e => {
     o.title = t.label,
         o.innerText = t.label,
         m.store.appendChild(n)
-}
+    }
 )),
-
+    
     p(),
     T(),
     Object.keys(i).forEach((e => {
@@ -535,10 +535,12 @@ Object.keys(i).forEach((e => {
     }
     )),
 
+    // sets current output on cursor
     m.button.addEventListener(n, (() => {
         G(o.cursor.output.current)
     }
     )),
+    //
 
     m.cursorButton.addEventListener(n, (() => {
         if (o.clicks.current >= o.cursor.cost.next) {
@@ -581,7 +583,7 @@ Object.keys(i).forEach((e => {
                         ,
                         setInterval(t.interval.callback, 1e3 * t.delay)),
                 t.message && f(t.message))
-        }
+            }
         ))
     }
-    ));
+));
