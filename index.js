@@ -417,7 +417,7 @@ const b = {
     1e21: "The button has been clicked one hundred quitillion times.",
     1e22: "The button has been clicked one sextillion times."
 };
-
+//
 e(o, a),
     e(o, s),
     e(o, u),
@@ -439,15 +439,19 @@ function k(e) {
     const t = m[e];
     return t || (m[e] = document.getElementById(e))
 }
+//
 
 // Converts Sushi Roll > Sushi Rolls if more than 1 && converts second > seconds if more than 1
 const y = (e, t) => `${e.toLocaleString()} ${1 === e ? "Sushi Roll" : "Sushi Rolls"} per ${t.toLocaleString()} ${1 === t ? "second" : "seconds"}`;
+//
 
 // Displays the Sushi Roll count
 function p() {
     m.counter.innerText = c.current.toLocaleString()
 }
+//
 
+// Shows information on table for (Amount Bought, Cost, Current output, Next output)
 function T() {
     const e = m.cursor
         , { cursor: t } = o;
@@ -465,6 +469,7 @@ function w(e) {
         n.querySelector(".output-current").innerText = y(t.output.current, t.delay),
         n.querySelector(".output-next").innerText = y(t.output.next, t.delay)
 }
+//
 
 function f(e = "") {
     const { total: t } = c;
