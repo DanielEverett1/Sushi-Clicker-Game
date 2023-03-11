@@ -41,17 +41,17 @@ t(s, "cursor", (function () {
 ));
 
 const l = {
-    message: "Upgraded cursor click power.",
+    message: "Upgraded cursor.",
     owned: 1,
     cost: {
         base: 100,
         next: 100,
-        rate: 5
+        rate: 1.25
     },
     output: {
-        base: 5,
-        next: 5,
-        current: 5
+        base: 15,
+        next: 15,
+        current: 15
     }
 };
 
@@ -417,17 +417,9 @@ const b = {
 };
 
 e(o, a),
-    e(o, s),
-    e(o, u),
-    e(o, d);
-
-(0,
-    window.gtag)("config", "UA-59233605-5"),
-    window["ga-disable-UA-59233605-5"] = !1;
-const h = document.createElement("script");
-h.async = !0,
-    h.src = "https://www.googletagmanager.com/gtag/js?id=UA-59233605-5",
-    document.head.appendChild(h);
+e(o, s),
+e(o, u),
+e(o, d);
 
 const g = document.getElementById("cursor")
     , m = {
