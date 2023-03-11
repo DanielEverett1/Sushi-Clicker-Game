@@ -445,7 +445,7 @@ const y = (e, t) => `${e.toLocaleString()} ${1 === e ? "Sushi Roll" : "Sushi Rol
 
 
 function p() {
-    m.counter.innerText = c.current.toLocaleString()
+    // m.counter.innerText = c.current.toLocaleString()
 }
 
 function T() {
