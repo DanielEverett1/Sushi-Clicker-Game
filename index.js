@@ -66,10 +66,10 @@ const i = {
         label: "Worker 1",
         message: "Purchased Worker 1.",
         owned: 0,
-        delay: 10,
+        delay: 3,
         cost: {
-            base: 15,
-            next: 15,
+            base: 30,
+            next: 30,
             rate: 1.15
         },
         output: {
@@ -86,7 +86,7 @@ const i = {
         label: "Worker 2",
         message: "Purchased Worker 2.",
         owned: 0,
-        delay: 1,
+        delay: 8,
         cost: {
             base: 100,
             next: 100,
@@ -106,7 +106,7 @@ const i = {
         label: "Worker 3",
         message: "Purchased Worker 3.",
         owned: 0,
-        delay: 1,
+        delay: 15,
         cost: {
             base: 1100,
             next: 1100,
@@ -126,7 +126,7 @@ const i = {
         label: "Worker 4",
         message: "Purchased Worker 4.",
         owned: 0,
-        delay: 1,
+        delay: 20,
         cost: {
             base: 12e3,
             next: 12e3,
@@ -146,7 +146,7 @@ const i = {
         label: "Worker 5",
         message: "Purchased Worker 5.",
         owned: 0,
-        delay: 1,
+        delay: 27,
         cost: {
             base: 13e4,
             next: 13e4,
@@ -166,7 +166,7 @@ const i = {
         label: "Worker 6",
         message: "Purchased Worker 6.",
         owned: 0,
-        delay: 1,
+        delay: 33,
         cost: {
             base: 14e5,
             next: 14e5,
@@ -186,7 +186,7 @@ const i = {
         label: "Worker 7",
         message: "Purchased Worker 7.",
         owned: 0,
-        delay: 1,
+        delay: 38,
         cost: {
             base: 2e7,
             next: 2e7,
@@ -206,7 +206,7 @@ const i = {
         label: "Worker 8",
         message: "Purchased Worker 8.",
         owned: 0,
-        delay: 1,
+        delay: 45,
         cost: {
             base: 33e7,
             next: 33e7,
@@ -226,7 +226,7 @@ const i = {
         label: "Worker 9",
         message: "Purchased Worker 9.",
         owned: 0,
-        delay: 1,
+        delay: 45,
         cost: {
             base: 51e8,
             next: 51e8,
@@ -246,7 +246,7 @@ const i = {
         label: "Worker 10",
         message: "Purchased Worker 10.",
         owned: 0,
-        delay: 1,
+        delay: 50,
         cost: {
             base: 75e9,
             next: 75e9,
@@ -266,7 +266,7 @@ const i = {
         label: "Worker 11",
         message: "Purchased Worker 11.",
         owned: 0,
-        delay: 1,
+        delay: 55,
         cost: {
             base: 1e12,
             next: 1e12,
@@ -286,7 +286,7 @@ const i = {
         label: "Worker 12",
         message: "Purchased Worker 12.",
         owned: 0,
-        delay: 1,
+        delay: 60,
         cost: {
             base: 14e12,
             next: 14e12,
@@ -306,7 +306,7 @@ const i = {
         label: "Worker 13",
         message: "Purchased Worker 13.",
         owned: 0,
-        delay: 1,
+        delay: 60,
         cost: {
             base: 17e13,
             next: 17e13,
@@ -326,7 +326,7 @@ const i = {
         label: "Worker 14",
         message: "Purchased Worker 14.",
         owned: 0,
-        delay: 1,
+        delay: 70,
         cost: {
             base: 21e14,
             next: 21e14,
@@ -346,7 +346,7 @@ const i = {
         label: "Worker 15",
         message: "Purchased Worker 15.",
         owned: 0,
-        delay: 1,
+        delay: 75,
         cost: {
             base: 26e15,
             next: 26e15,
@@ -366,7 +366,7 @@ const i = {
         label: "Worker 16",
         message: "Purchased Worker 16.",
         owned: 0,
-        delay: 1,
+        delay: 90,
         cost: {
             base: 31e16,
             next: 31e16,
