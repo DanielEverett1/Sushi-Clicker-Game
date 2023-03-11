@@ -9,33 +9,34 @@ body {
 
 header,
 main {
-    padding: 24px 36px
+    padding: 24px 36px;
 }
 
 main {
-    display: block
+    display: block;
+    background-color: #444;
 }
 
 header {
     color: #eee;
     background: #333;
-    font-family: Consolas, monospace
+    font-family: Consolas, monospace;
 }
 
 table {
-    border-collapse: collapse
+    border-collapse: collapse;
 }
 
 tr:nth-child(2n) {
-    background: #eee
+    background: #eee;
 }
 
 th,
 td {
     border: 1px solid #ddd;
-    padding: 8px
+    padding: 8px;
 }
 
 td:first-child {
-    text-align: left
+    text-align: left;
 }
