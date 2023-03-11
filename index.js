@@ -418,10 +418,6 @@ const b = {
     1e22: "The button has been clicked one sextillion times."
 };
 //
-e(o, a),
-    e(o, s),
-    e(o, u),
-    e(o, d);
 
 // finds all elements by ID, and does math
 const g = document.getElementById("cursor"), m = {
