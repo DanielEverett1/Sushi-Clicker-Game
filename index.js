@@ -474,6 +474,7 @@ function w(e) {
 }
 //
 
+// Sends the message at the top of the screen
 function f(e = "") {
     const { total: t } = c;
     let n;
@@ -492,7 +493,9 @@ function f(e = "") {
     n && (n = n.toLocaleString(),
         n !== m.message.innerText && (m.message.innerText = n))
 }
+//
 
+// Deals with disabling/enabling button
 function G(e, t = !1) {
     const { clicks: n } = o;
     n.current += e,
@@ -506,10 +509,11 @@ function G(e, t = !1) {
     }
     ))
 }
+//
 
-function v(e) {
-    G(-e, !0)
-}
+// function v(e) {
+//     G(-e, !0)
+// }
 
 Object.keys(i).forEach((e => {
     const t = i[e]
