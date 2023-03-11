@@ -49,7 +49,7 @@ const l = {
         rate: 5
     },
     output: {
-        base: 1,
+        base: 5,
         next: 5,
         current: 1
     }
