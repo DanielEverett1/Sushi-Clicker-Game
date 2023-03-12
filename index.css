@@ -6,8 +6,6 @@ body {
   font: 14px;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #444;
-  justify-content: center;
-  align-items: center;
   text-align: center;
 }
 
@@ -37,18 +35,10 @@ header {
   font-family: Consolas, monospace;
 }
 
-table,
-tr,
-th,
-td {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  display: flex;
-}
-
 table {
   border-collapse: collapse;
+  margin-left:auto;
+  margin-right:auto;
 }
 
 tr:nth-child(2n) {
