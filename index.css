@@ -9,7 +9,6 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  display: flex;
 }
 
 header,
@@ -38,8 +37,11 @@ header {
   font-family: Consolas, monospace;
 }
 
-table, tr, th, td {
-    justify-content: center;
+table,
+tr,
+th,
+td {
+  justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
