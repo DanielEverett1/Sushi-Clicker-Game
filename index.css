@@ -1,14 +1,42 @@
-@import url('https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nanum+Pen+Script&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap');
 
 html,
 body {
   border: 0;
   margin: 0;
   padding: 0;
-  font: 14px;
-  font-family: 'Nanum Pen Script', cursive;
-  background-color: #444;
+  font-size: 14px;
+  /* font-family: "Nanum Pen Script", cursive; */
+  /* font-family: 'Indie Flower', cursive !important; */
+  font-family: 'Karla', sans-serif !important;
+  background-color: #0a0a0a;
   text-align: center;
+}
+
+img,
+#message {
+  display: inline-flex;
+  max-width: 500px;
+}
+
+#message {
+  margin-left: 25px;
+}
+
+#button {
+  background-color: #1D1D1D !important;
+  color: white;
+}
+
+button {
+  background-color: #444;
+  color: #222;
+}
+
+button:enabled {
+  background-color: #eee;
 }
 
 header,
@@ -18,7 +46,7 @@ main {
 
 main {
   display: block;
-  background-color: #444;
+  background-color: #1D1D1D;
 }
 
 h1,
@@ -33,24 +61,27 @@ p {
 
 header {
   color: #eee;
-  background-color: #333;
-  font-family: Consolas, monospace;
+  background-color: #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 table {
   border-collapse: collapse;
-  margin-left:auto;
-  margin-right:auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 tr:nth-child(2n) {
-  background-color: #eee;
+  background-color: #1D1D1D;
 }
 
 th,
 td {
-  background-color: #eee;
-  border: 1px solid #ddd;
+  background-color: #1D1D1D;
+  color: #eee !important;
+  border: 1px solid #eee !important;
   padding: 8px;
 }
 
