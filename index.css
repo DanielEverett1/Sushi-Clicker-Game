@@ -38,12 +38,15 @@ header {
   font-family: Consolas, monospace;
 }
 
-table {
-  border-collapse: collapse;
-  justify-content: center;
+table, tr, th, td {
+    justify-content: center;
   align-items: center;
   text-align: center;
   display: flex;
+}
+
+table {
+  border-collapse: collapse;
 }
 
 tr:nth-child(2n) {
