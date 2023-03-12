@@ -40,6 +40,10 @@ header {
 
 table {
   border-collapse: collapse;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
 }
 
 tr:nth-child(2n) {
