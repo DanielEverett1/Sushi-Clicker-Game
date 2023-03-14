@@ -55,7 +55,7 @@ const l = {
     }
 };
 
-// Returns list of workers in table
+// Worker upgrades
 let u = {};
 t(u, "workers", (function () {
     return i
