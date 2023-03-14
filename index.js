@@ -46,7 +46,7 @@ const l = {
     cost: {
         base: 100,
         next: 100,
-        rate: 1.125
+        rate: 1.025
     },
     output: {
         base: 15,
