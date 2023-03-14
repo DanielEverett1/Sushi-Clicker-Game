@@ -71,7 +71,7 @@ const i = {
         cost: {
             base: 30,
             next: 30,
-            rate: 1.3
+            rate: 1.125
         },
         output: {
             base: 1,
@@ -91,7 +91,7 @@ const i = {
         cost: {
             base: 100,
             next: 100,
-            rate: .60
+            rate: 1.25
         },
         output: {
             base: 1,
@@ -111,7 +111,7 @@ const i = {
         cost: {
             base: 1100,
             next: 1100,
-            rate: .65
+            rate: 1.3
         },
         output: {
             base: 8,
