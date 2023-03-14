@@ -74,8 +74,8 @@ const i = {
             rate: 1.125
         },
         output: {
-            base: 1,
-            next: 1,
+            base: 5,
+            next: 5,
             current: 0
         },
         interval: {
@@ -94,8 +94,8 @@ const i = {
             rate: 1.25
         },
         output: {
-            base: 1,
-            next: 1,
+            base: 10,
+            next: 10,
             current: 0
         },
         interval: {
